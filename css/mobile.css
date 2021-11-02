@@ -1,4 +1,36 @@
 @media(max-width: 768px) {
+  /* Geral */
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
   /* Header - cabeçalho */
   header .container {
     width: 100%;
@@ -15,9 +47,14 @@
     flex-direction: column;
     align-items: center;
   }
+  
 
   .flexbox-descricao-explicacao {
     margin-bottom: 10px;
+  }
+
+  .flexbox-descricao-explicacao ul {
+    margin: 0;
   }
 
   .flexbox-funcionamento {
@@ -38,13 +75,19 @@
     margin-bottom: 10px;
   }
 
+  .flexbox-flex-direction-explicacao img {
+    margin: 0;
+  }
+
   .flexbox-flex-direction-imagem img {
-    margin-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .flexbox-justify-content {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .flexbox-justify-content-explicacao {
@@ -52,11 +95,15 @@
   }
 
   .flexbox-justify-content-explicacao img {
-    margin-left: -25%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .flexbox-justify-content-imagem img {
-    margin-left: -25%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
 
   .flexbox-flexgrow-flexshrink-imagem-flexgrow img {
@@ -77,8 +124,16 @@
 
   /* Footer - Rodapé */
   footer .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0;
+  }
+
+  .redes-sociais img {
+    width: 35px;
+    height: 35px;
   }
   
 }
