@@ -21,6 +21,7 @@ main .container {
   margin: 25px auto;
 }
 
+/* Section flexbox-descricao */
 .flexbox-descricao {
   display: flex;
   justify-content: space-around;
@@ -32,10 +33,6 @@ main .container {
 
 .flexbox-descricao-explicacao {
   margin-top: 10px;
-}
-
-.flexbox-descricao-explicacao h3 {
-  text-align: center;
 }
 
 .flexbox-descricao-explicacao li::before {
@@ -58,8 +55,7 @@ main .container {
   height: 400px;
 }
 
-
-
+/* Section flexbox-funcionamento */
 .flexbox-funcionamento {
   margin-top: 25px;
   display: flex;
@@ -80,8 +76,24 @@ main .container {
   height: 350px;
 }
 
+/* Section - flexbox-flex-direction */
+.flexbox-flex-direction {
+  display: flex;
+  margin-top: 20px;
+}
 
+.flexbox-flex-direction li::before {
+  content: url("https://img.icons8.com/ios/16/000000/box--v1.png");
+}
 
+.flexbox-flex-direction ul {
+  margin-left: 10%;
+  text-align: left;
+}
+
+.flexbox-flex-direction-explicacao img {
+  margin-left: 25%;
+}
 
 
 
