@@ -2,6 +2,8 @@
 header .container {
   width: 90%;
   margin: 10px auto;
+  background: #CCCCCC;
+  padding: 10px;
 }
 
 .titulo-principal {
@@ -45,13 +47,15 @@ main .container {
   text-align: left;
 }
 
+.flexbox-descricao-imagem {
+  display: flex;
+  justify-content: center;
+
+}
+
 .flexbox-descricao-imagem img {
   width: 400px;
   height: 450px;
-
-  /*Centralizar imagem*/
-  display: block;
-  margin: 0 auto;
 }
 
 
@@ -68,3 +72,19 @@ main .container {
 
 
 /* Footer - Rodapé */
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+  background: #CCCCCC;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creditos a, .redes-sociais a{
+  text-decoration: none;
+  border: none;
+  color: inherit;
+}
