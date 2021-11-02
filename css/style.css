@@ -1,3 +1,4 @@
+/* Header - Cabeçalho */
 header .container {
   width: 90%;
   margin: 10px auto;
@@ -8,3 +9,62 @@ header .container {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+/* Main - Conteúdo principal */
+main .container {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.flexbox-descricao {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexbox-descricao-explicacao, .flexbox-descricao-imagem {
+  width: 50%;
+}
+
+.flexbox-descricao-explicacao {
+  margin-top: 10px;
+}
+
+.flexbox-descricao-explicacao h3 {
+  text-align: center;
+}
+
+.flexbox-descricao-explicacao li::before {
+  content: url("https://img.icons8.com/ios/16/000000/box--v1.png");
+}
+
+.flexbox-descricao-explicacao ul {
+  margin-left: 30%;
+  text-align: left;
+}
+
+.flexbox-descricao-imagem img {
+  width: 400px;
+  height: 450px;
+
+  /*Centralizar imagem*/
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer - Rodapé */
