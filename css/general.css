@@ -35,3 +35,17 @@ li {
 img {
   border-radius: 10px;
 }
+
+strong {
+  font-weight: bold;
+}
+
+.cor-azul {
+  color: #15509f;
+  font-weight: bold;
+}
+
+.cor-vermelha {
+  color: #d13b3b;
+  font-weight: bold;
+}

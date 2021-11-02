@@ -54,10 +54,31 @@ main .container {
 }
 
 .flexbox-descricao-imagem img {
-  width: 400px;
-  height: 450px;
+  width: 350px;
+  height: 400px;
 }
 
+
+
+.flexbox-funcionamento {
+  margin-top: 25px;
+  display: flex;
+}
+
+.flexbox-funcionamento-explicacao {
+  width: 50%;
+}
+
+.flexbox-funcionamento-imagem {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-funcionamento-imagem img {
+  width: 250px;
+  height: 350px;
+}
 
 
 
