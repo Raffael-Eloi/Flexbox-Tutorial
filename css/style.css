@@ -95,9 +95,31 @@ main .container {
   margin-left: 25%;
 }
 
+/* Section - flebox-justify-content */
+.flebox-justify-content {
+  display: flex;
+  justify-content: space-between;
+}
 
+.flebox-justify-content-explicacao {
+  width: 50%;
+}
 
+.flebox-justify-content-explicacao img {
+  width: 450px;
+  height: 400px;
+  margin-left: 25%;
+}
 
+.flebox-justify-content-imagem {
+  width: 50%;
+}
+
+.flebox-justify-content-imagem img {
+  width: 400px;
+  height: 525px;
+  margin-left: 30%;
+}
 
 
 
