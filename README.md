@@ -5,6 +5,9 @@ Um tutorial desenvolvido com o objetivo de ser simples e prático e ajudar quem 
 ## Objetivo 
 Que após o término da leitura da página você saia com uma base maior para criar seus projetos ou então que seus conceitos sobre flexbox que você já sabe sejam reforçados.
 
+## Como visualizar o projeto ?
+É simples, basta clicar <a href="https://raffael-eloi.github.io/Flexbox-Tutorial/" target="_blank">aqui</a>
+
 ## Como ficou o projeto ?
 ![flexbox-tutorial](https://user-images.githubusercontent.com/51720161/139923929-39d4e368-44c2-4810-a73b-5a0a78da2417.gif)
 
