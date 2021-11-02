@@ -1,3 +1,10 @@
-body {
-  font-family: 'Roboto', sans-serif;
+header .container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
