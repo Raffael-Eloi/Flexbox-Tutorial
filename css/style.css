@@ -88,3 +88,20 @@ footer .container {
   border: none;
   color: inherit;
 }
+
+.creditos h4 {
+  transition: 400ms;
+}
+
+.creditos h4:hover {
+  font-size: 25px;
+}
+
+.redes-sociais img {
+  transition: 400ms;
+}
+
+.redes-sociais img:hover {
+  width: 55px;
+  height: 55px;
+}
