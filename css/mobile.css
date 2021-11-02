@@ -1,0 +1,84 @@
+@media(max-width: 768px) {
+  /* Header - cabeçalho */
+  header .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Main - Conteúdo principal */
+  main .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .flexbox-descricao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-descricao-explicacao {
+    margin-bottom: 10px;
+  }
+
+  .flexbox-funcionamento {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-funcionamento-explicacao {
+    margin-bottom: 10px;
+  }
+
+  .flexbox-flex-direction {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-flex-direction-explicacao {
+    margin-bottom: 10px;
+  }
+
+  .flexbox-flex-direction-imagem img {
+    margin-left: 0;
+  }
+
+  .flexbox-justify-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexbox-justify-content-explicacao {
+    margin-bottom: 10px;
+  }
+
+  .flexbox-justify-content-explicacao img {
+    margin-left: -25%;
+  }
+
+  .flexbox-justify-content-imagem img {
+    margin-left: -25%;
+  }
+
+  .flexbox-flexgrow-flexshrink-imagem-flexgrow img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .flexbox-flexgrow-flexshrink-imagem-flexshrink img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .consideracoes-finais-conteudos ul {
+    margin-left: 25%;
+  }
+
+  /* Footer - Rodapé */
+  footer .container {
+    width: 100%;
+    margin: 0;
+  }
+  
+}
